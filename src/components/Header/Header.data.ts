@@ -1,22 +1,22 @@
 export const dataHeader = [
   {
     id: 1,
-    name: "Características",
+    name: "Menu",
     idLink: "#features",
   },
   {
     id: 2,
-    name: "Tarjetas",
+    name: "Nosotros",
     idLink: "#tarjetas",
   },
   {
     id: 3,
-    name: "Testimonios",
+    name: "Servicios",
     idLink: "#testimonios",
   },
   {
     id: 4,
-    name: "Servicios",
+    name: "Contacto",
     idLink: "#servicios",
   },
 ];

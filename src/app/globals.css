@@ -7,12 +7,12 @@ html {
 }
 
 body {
-  background-color: #000000;
-  color: #fff;
+  background-color: white;
+  color: green;
 }
 
 ::selection {
-  background: #6de4e8;
+  background: rgb(12, 151, 14);
 }
 
 .degradedBlue {
@@ -23,11 +23,11 @@ body {
 }
 
 .swiper-pagination-bullet {
-  background: #fff !important;
+  background: #18ee05 !important;
 }
 
 .swiper-pagination-bullet-active {
-  background: rgba(0, 178, 218, 0.6) !important;
+  background: rgba(14, 139, 2, 0.96) !important;
 }
 
 .slider-horizontal {
