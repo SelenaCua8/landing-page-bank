@@ -47,7 +47,7 @@ export function Reveal({ children }: { children: React.ReactNode }) {
                     bottom: 4,
                     left: 0,
                     right: 0,
-                    background: "#6DE4E8",
+                    background: "#388E3C",
                     zIndex: 20
                 }}
             >

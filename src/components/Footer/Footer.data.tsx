@@ -1,105 +1,86 @@
-import { RiFacebookCircleFill, RiInstagramLine, RiLinkedinBoxFill, RiTwitterXFill } from "react-icons/ri";
+import { RiFacebookCircleFill, RiInstagramLine, RiLinkedinBoxFill,  RiYoutubeFill } from "react-icons/ri";
 
 export const footerData = [
   {
     id: 1,
-    title: "Links útiles",
+    title: "Nuestros servicios",
     links: [
       {
         id: 1,
-        name: "Contenido",
+        name: "Desarrollo y mantenimiento de espacios verdes",
         link: "#",
       },
       {
         id: 2,
-        name: "Como trabajamos",
+        name: "Construcciones",
         link: "#",
       },
       {
         id: 3,
-        name: "Crear",
+        name: "Tomografía de árboles",
         link: "#",
       },
       {
         id: 4,
-        name: "Explorar",
+        name: "Paisajismo y Obra pública.",
         link: "#",
       },
       {
         id: 5,
-        name: "Términos y condiciones",
+        name: "Sistema de riego.",
+        link: "#",
+      },
+      {
+        id: 6,
+        name: "Normas ISO",
+        link: "#",
+      },
+      {
+        id: 7,
+        name: "Políticas de calidad y ambiente",
         link: "#",
       },
     ],
   },
   {
     id: 2,
-    title: "Comunidad",
+    title: "Información de contacto",
     links: [
       {
         id: 1,
-        name: "Centro de ayuda",
+        name: "Teléfono: +54-1126017576",
         link: "#",
       },
       {
         id: 2,
-        name: "Partners",
+        name: "Email: Tcgardenzte@gmail.com ",
         link: "#",
       },
-      {
-        id: 3,
-        name: "Sugerencias",
-        link: "#",
-      },
-      {
-        id: 4,
-        name: "Blog",
-        link: "#",
-      },
-      {
-        id: 5,
-        name: "Newsletter",
-        link: "#",
-      },
+      
     ],
   },
-  {
-    id: 3,
-    title: "Partner",
-    links: [
-      {
-        id: 1,
-        name: "Nuestro partner",
-        link: "#",
-      },
-      {
-        id: 2,
-        name: "Hazte partner",
-        link: "#",
-      },
-    ],
-  },
+  
 ];
 
 export const footerSocialNetworks = [
   {
     id: 1,
     icon: <RiInstagramLine />,
-    link: "#"
+    link: "https://www.instagram.com/thecleangarden/"
   },
   {
     id: 2,
     icon: <RiFacebookCircleFill />,
-    link: "#"
+    link: "https://www.facebook.com/thecleangardensrl/"
   },
   {
     id: 3,
-    icon: <RiTwitterXFill />,
-    link: "#"
+    icon: <RiLinkedinBoxFill />,
+    link: "https://www.linkedin.com/company/the-clean-garden/"
   },
   {
     id: 4,
-    icon: <RiLinkedinBoxFill />,
-    link: "#"
+    icon: <RiYoutubeFill />,
+    link: "https://www.youtube.com/@thecleangardensrl8528"
   },
 ];

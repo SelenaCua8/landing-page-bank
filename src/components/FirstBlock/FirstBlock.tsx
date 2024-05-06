@@ -45,10 +45,10 @@ export function FirstBlock() {
         </div>
         <MotionTransition className="flex items-center justify-center">
           <Image
-            src="/assets/cards-block.png"
+            src="/assets/AbouUs.jpg"
             alt="Card"
             width={450}
-            height={450}
+            height={500}
             className="h-auto w-72 md:w-full"
           />
         </MotionTransition>

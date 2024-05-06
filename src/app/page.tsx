@@ -13,13 +13,18 @@ export default function Home() {
     <>
       <Header />
       <FirstBlock />
+       {/*
+       
       <CounterData />
       <BestBusiness />
       <ChooseYourCards />
       <ControlBilling />
       <Testimonials />
-      <PaymentsMethods />
-      <Footer />
+      <PaymentsMethods /> 
+      <Footer />*/}
+       <Footer />
+      
+      
     </>
   )
 }
