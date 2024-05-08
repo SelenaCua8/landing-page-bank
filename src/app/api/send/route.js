@@ -3,6 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 const fromEmail = process.env.FROM_EMAIL;
+const yourEmail = "selenac99@hotmail.com"; // Tu dirección de correo electrónico aquí
 
 export async function POST(req, res) {
   const { email, subject, message } = await req.json();
@@ -10,7 +11,7 @@ export async function POST(req, res) {
   try {
     const data = await resend.emails.send({
       from: fromEmail,
-      to: [fromEmail, email],
+      to: [fromEmail, email, yourEmail], // Agregar tu dirección de correo electrónico aquí
       subject: subject,
       react: (
         <>
