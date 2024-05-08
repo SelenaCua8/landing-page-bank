@@ -2,6 +2,7 @@ import { BestBusiness } from "@/components/BestBusiness";
 import { ChooseYourCards } from "@/components/ChooseYourCards";
 import { ControlBilling } from "@/components/ControlBilling";
 import { CounterData } from "@/components/CounterData";
+import EmailSection from "@/components/Email/EmailSection";
 import { FirstBlock } from "@/components/FirstBlock";
 import { Footer } from "@/components/Footer/";
 import { Header } from "@/components/Header";
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <Header />
       <FirstBlock />
+      <EmailSection />
        {/*
        
       <CounterData />
